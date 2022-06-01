@@ -1,0 +1,52 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Body */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header */
+header {
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    align-items: center;
+}
+
+.header_menu {
+    margin-left: auto;
+}
+
+.header_menu ul {
+    display: flex;
+}
+
+.header_logo-img {
+    margin: 10px;
+    width: 30px;
+}
+
+.header_nav-link {
+    margin-right: 20px;
+    color: rgb(163, 163, 163);
+}
+
+.header_nav-link:hover {
+    color: rgb(61, 61, 61);
+}
+
+.active {
+    color: rgb(61, 61, 61);
+}

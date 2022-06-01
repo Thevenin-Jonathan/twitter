@@ -4,8 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "node-dev app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node-dev app.js"
   },
   "keywords": [],
   "author": "",
@@ -13,6 +12,7 @@
   "dependencies": {
     "ejs": "^3.1.6",
     "express": "^4.17.3",
-    "morgan": "^1.10.0"
+    "morgan": "^1.10.0",
+    "node-dev": "^7.4.3"
   }
 }
